@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+header {
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+    /* border: 10px solid; */
+    padding: 30px 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    cursor: pointer;
+    font-weight: 550;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+    color: rgb(64, 64, 64);
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    border: 1px solid rgb(110, 203, 113);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    box-shadow: 0px -0px 40px -6px rgb(119, 118, 118);
+}
+
+.btn2 {
+    background-color: rgb(77, 158, 80);
+    color: aliceblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    box-shadow: 0px -0px 40px -6px rgb(119, 118, 118);
+}
+
+.btn3 {
+    width: 50%;
+    cursor: pointer;
+}
+
+nav p {
+    font-size: 30px;
+    color: rgb(82, 164, 84);
+}
+
+p .spans1 {
+    color: rgb(61, 66, 206);
+}
+
+.text-contents {
+    width: 85%;
+
+}
+
+.conttent {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    line-height: 50px;
+    margin-top: 85px;
+}
+
+.text-content-1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text-content-2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(77, 158, 80);
+    
+}
+
+.text-content-2 .sub-text {
+    color: rgb(61, 66, 206);
+}
+
+.text-content-3 {
+    margin-top: 15px;
+    line-height: 25px;
+    color: rgb(102, 100, 100);
+    margin-bottom: 15px;
+}
+
+.text-content-3 .sub-text {
+    color: rgb(77, 158, 80);
+    font-weight: 800;
+}
+
+.penilaian {
+    margin-top: 30px;
+    display: flex;
+    gap: 140px;
+}
+
+.penilaian .img-profile .img1 {
+    border: 1px solid;
+    transform: translateX(60%);
+}
+
+.penilaian .img-profile .img2 {
+    border: 1px solid;
+    transform: translateX(110%);
+    z-index: 1;
+}
+
+.penilaian .img-profile .img3 {
+    border: 1px solid;
+    z-index: 0;
+}
+
+.img-profile img {
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.gambar-pro {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.img1 {
+    height: 500px;
+    z-index: 1;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 0;
+}
+
+i {
+    color: gold;
+    border: 1px solid;
+}
